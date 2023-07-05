@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #536dfe;
+  --off-white-color: #f3f4f6;
+  --hero-heading-color: gray;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: white;
+}
+
+.link-secondary {
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  color: var(--primary-color);
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0 0.6rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 0 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navigation .nav-pills {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 360px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  font-size: 2.2rem;
+  color: var(--hero-heading-color);
+  text-align: center;
+}
+
+.hero .hero-inverted {
+  color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.ow {
+  background-color: var(--off-white-color);
+  border-radius: 0.5rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 1rem 0 0;
+  margin-top: 2rem;
+}
+
+.footer small {
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
+
+.footer a {
+  color: white;
+}
+
+.blog {
+  max-width: 1080px;
+  margin: auto;
+  text-align: justify;
+}
